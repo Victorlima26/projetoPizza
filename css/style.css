@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+/* Não altera os valores deixa original BOX */
+body{
+    background-image: url("../imagens/bg_site.jpg");
+    display: flex;   
+    justify-content: center;
+    margin-top: 50px;
+    background-attachment: fixed;
+}
+/* bacground-attachment: fixed  usado para fixar a foto de fundo  */
+/* para sai fora da pasta ../  */
+#container{
+    background-color: rgba(234, 233, 145, 0.812);
+    width: 1190px;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+header img{
+    width: 250px;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 20px;
+
+}
+/* list-style-type: none;  serve para tira as bolinhas da lista não ordenada ''nav ul li''   */
+.menu{
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+}
+/* para tira a barra de baixo das palavras  */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+/* para colocar cada palavra uma do lado da outra , + align-items: center para centralizar as palavras */
+nav ul{
+    display: flex;
+}
+/* usar a margem no nav ul li para separa as palavras  */
+a.menu:link{
+    color:#b83229
+}
+a.menu:visited{
+    color:#b83229
+}
+a.menu:hover{
+    color:#005a20
+}
+a.menu:active{
+    color:#005a20
+}
+/* a.menu: para colocar cor nas palavras quando passar o mouse e clica  */
+.principal article h1{
+    color: #b83229;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    margin-top: 20px;
+    text-align: center;
+}
+/* text-align: center para deixar texto no centro */
+.principal article p{
+    color: #005a20;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+/* color piker extenção do Google 
+line-height : 2rem espacamento na linha do texto*/
+.cardapio p, .local p{
+    color: #005a20;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+.cardapio h2, .local h2 {
+    color:#b83229;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.segundario{
+    display: flex;
+   
+    justify-content: space-between;
+    
+}
+.cardapio, .local{
+    width: 565px;
+}
+
+footer{
+    background-color:rgba(237, 17, 17, 0.774);
+    height: 100px;
+    padding: 20px;
+    
+}
+footer img{
+    float: left;
+    
+}
+footer a {
+    color:#ffffff;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8rem;
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+.assinatura{
+    text-align:  right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
